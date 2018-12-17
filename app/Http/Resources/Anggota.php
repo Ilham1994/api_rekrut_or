@@ -2,13 +2,12 @@
 
 namespace App\Http\Resources;
 
-use Illuminate\Http\Resources\Json\ResourceCollection;
-use App\Anggota;
+use Illuminate\Http\Resources\Json\JsonResource;
 
-class AnggotaCollection extends ResourceCollection
+class Anggota extends JsonResource
 {
     /**
-     * Transform the resource collection into an array.
+     * Transform the resource into an array.
      *
      * @param  \Illuminate\Http\Request  $request
      * @return array

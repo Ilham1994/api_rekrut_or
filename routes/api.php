@@ -3,7 +3,7 @@
 use Illuminate\Http\Request;
 
 use App\Anggota;
-use App\Http\Resources\AnggotaCollection as AnggotaResource;
+use App\Http\Resources\Anggota as AnggotaResource;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,5 +21,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::get('/anggota', function(){
-	return Anggota::all();
+	// return Anggota::all();
+
+	return AnggotaResource::collection(Anggota::all());
 });
