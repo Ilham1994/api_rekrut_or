@@ -18,10 +18,10 @@ class CreateAnggotaTable extends Migration
             $table->string('nama');
             $table->string('tmpt_lahir');
             $table->date('tgl_lahir');
-            $table->string('jurusan');
-            $table->string('angkatan');
-            $table->integer('target_divisi');
+            $table->string('alamat');
+            $table->string('nim');
             $table->text('motivasi');
+            $table->string('foto');
             $table->timestamps();
         });
     }

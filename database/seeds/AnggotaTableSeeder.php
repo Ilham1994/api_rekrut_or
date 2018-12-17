@@ -14,22 +14,49 @@ class AnggotaTableSeeder extends Seeder
     {
         DB::table('anggota')->insert([
         	[
-                'nama' => 'Ilham',
-                'tmpt_lahir' => 'padang panjang',
-                'tgl_lahir' => Carbon::create('2010','10','01'),
-                'jurusan' => 'Sistem Informasi',
-                'angkatan' => '2015',
-                'target_divisi' => 1,
-                'motivasi' => 'Ingin Belajar'
+                'nama' => 'Alfar',
+                'tmpt_lahir' => 'Jakarta',
+                'tgl_lahir' => Carbon::create('1995','10','01'),
+                'alamat' => 'Jakarta',
+                'nim' => '1311511111',
+                'motivasi' => 'Ingin Belajar',
+                'foto' = 'placeholder path foto'
             ],
             [
-                'nama' => 'Lavellan',
-                'tmpt_lahir' => 'Thedar',
-                'tgl_lahir' => Carbon::create('2010','10','01'),
-                'jurusan' => 'Sistem Informasi',
-                'angkatan' => '2015',
-                'target_divisi' => 1,
-                'motivasi' => 'Inquisition for the win'
+                'nama' => 'Bella',
+                'tmpt_lahir' => 'Ferelden',
+                'tgl_lahir' => Carbon::create('1995','10','01'),
+                'alamat' => 'Kingsroad Ferelden',
+                'nim' => '1311522222',
+                'motivasi' => 'Organisasi road to glory',
+                'foto' = 'placeholder path foto'
+            ],
+            [
+                'nama' => 'Cella',
+                'tmpt_lahir' => 'New Orleans',
+                'tgl_lahir' => Carbon::create('1995','10','01'),
+                'alamat' => 'Padang',
+                'nim' => '1311533333',
+                'motivasi' => 'Organisasi road to glory',
+                'foto' = 'placeholder path foto'
+            ],
+            [
+                'nama' => 'Dennis',
+                'tmpt_lahir' => 'Bukittinggi',
+                'tgl_lahir' => Carbon::create('1995','10','01'),
+                'alamat' => 'Padang',
+                'nim' => '1311544444',
+                'motivasi' => 'Organisasi road to glory',
+                'foto' = 'placeholder path foto'
+            ],
+            [
+                'nama' => 'Eska',
+                'tmpt_lahir' => 'Darmasraya',
+                'tgl_lahir' => Carbon::create('1995','10','01'),
+                'alamat' => 'Padang Pariaman',
+                'nim' => '1311555555',
+                'motivasi' => 'Organisasi road to glory',
+                'foto' = 'placeholder path foto'
             ]
         ]);
     }
