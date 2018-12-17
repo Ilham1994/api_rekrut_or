@@ -20,7 +20,7 @@ class AnggotaTableSeeder extends Seeder
                 'alamat' => 'Jakarta',
                 'nim' => '1311511111',
                 'motivasi' => 'Ingin Belajar',
-                'foto' = 'placeholder path foto'
+                'foto' => 'placeholder path foto'
             ],
             [
                 'nama' => 'Bella',
@@ -29,7 +29,7 @@ class AnggotaTableSeeder extends Seeder
                 'alamat' => 'Kingsroad Ferelden',
                 'nim' => '1311522222',
                 'motivasi' => 'Organisasi road to glory',
-                'foto' = 'placeholder path foto'
+                'foto' => 'placeholder path foto'
             ],
             [
                 'nama' => 'Cella',
@@ -38,7 +38,7 @@ class AnggotaTableSeeder extends Seeder
                 'alamat' => 'Padang',
                 'nim' => '1311533333',
                 'motivasi' => 'Organisasi road to glory',
-                'foto' = 'placeholder path foto'
+                'foto' => 'placeholder path foto'
             ],
             [
                 'nama' => 'Dennis',
@@ -47,7 +47,7 @@ class AnggotaTableSeeder extends Seeder
                 'alamat' => 'Padang',
                 'nim' => '1311544444',
                 'motivasi' => 'Organisasi road to glory',
-                'foto' = 'placeholder path foto'
+                'foto' => 'placeholder path foto'
             ],
             [
                 'nama' => 'Eska',
@@ -56,7 +56,7 @@ class AnggotaTableSeeder extends Seeder
                 'alamat' => 'Padang Pariaman',
                 'nim' => '1311555555',
                 'motivasi' => 'Organisasi road to glory',
-                'foto' = 'placeholder path foto'
+                'foto' => 'placeholder path foto'
             ]
         ]);
     }
