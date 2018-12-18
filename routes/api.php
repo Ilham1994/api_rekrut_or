@@ -30,3 +30,5 @@ Route::get('/anggota/favorit', function(){
 	return AnggotaResource::collection(Anggota::all())
 			->where('favorit', true);
 });
+
+Route::get('/anggota/{id}', 'AnggotaController@updateAnggota');
