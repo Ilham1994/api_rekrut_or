@@ -27,5 +27,6 @@ Route::get('/anggota', function(){
 });
 
 Route::get('/anggota/favorit', function(){
-	return AnggotaResource::collection(Anggota::all())->where('favorit', true);
-})
+	return AnggotaResource::collection(Anggota::all())
+			->where('favorit', true);
+});
