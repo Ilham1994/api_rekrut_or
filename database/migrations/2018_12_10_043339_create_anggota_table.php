@@ -22,6 +22,7 @@ class CreateAnggotaTable extends Migration
             $table->string('nim');
             $table->text('motivasi');
             $table->string('foto');
+            $table->boolean('favorit');
             $table->timestamps();
         });
     }

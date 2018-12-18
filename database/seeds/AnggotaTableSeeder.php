@@ -20,7 +20,8 @@ class AnggotaTableSeeder extends Seeder
                 'alamat' => 'Jakarta',
                 'nim' => '1311511111',
                 'motivasi' => 'Ingin Belajar',
-                'foto' => 'placeholder path foto'
+                'foto' => 'avatars-5b03f94f98aeb.jpeg',
+                'favorit' => 'true'
             ],
             [
                 'nama' => 'Bella',
@@ -29,7 +30,8 @@ class AnggotaTableSeeder extends Seeder
                 'alamat' => 'Kingsroad Ferelden',
                 'nim' => '1311522222',
                 'motivasi' => 'Organisasi road to glory',
-                'foto' => 'placeholder path foto'
+                'foto' => 'avatars-5b03fa76c8cc7.jpeg',
+                'favorit' => 'false'
             ],
             [
                 'nama' => 'Cella',
@@ -38,7 +40,8 @@ class AnggotaTableSeeder extends Seeder
                 'alamat' => 'Padang',
                 'nim' => '1311533333',
                 'motivasi' => 'Organisasi road to glory',
-                'foto' => 'placeholder path foto'
+                'foto' => 'avatars-5b03fae3ae890.jpeg',
+                'favorit' => 'false'
             ],
             [
                 'nama' => 'Dennis',
@@ -47,7 +50,8 @@ class AnggotaTableSeeder extends Seeder
                 'alamat' => 'Padang',
                 'nim' => '1311544444',
                 'motivasi' => 'Organisasi road to glory',
-                'foto' => 'placeholder path foto'
+                'foto' => 'avatars-5b04250cabcc8.jpeg',
+                'favorit' => 'false'
             ],
             [
                 'nama' => 'Eska',
@@ -56,7 +60,8 @@ class AnggotaTableSeeder extends Seeder
                 'alamat' => 'Padang Pariaman',
                 'nim' => '1311555555',
                 'motivasi' => 'Organisasi road to glory',
-                'foto' => 'placeholder path foto'
+                'foto' => 'avatars-5b04272fddd66.jpeg',
+                'favorit' => 'false'
             ]
         ]);
     }

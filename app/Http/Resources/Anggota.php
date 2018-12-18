@@ -23,6 +23,7 @@ class Anggota extends JsonResource
             'nim' => $this->nim,
             'motivasi' => $this->motivasi,
             'foto' => $this->foto,
+            'favorit' => $this->favorit,
         ];
     }
 }
