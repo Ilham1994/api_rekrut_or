@@ -31,4 +31,4 @@ Route::get('/anggota/favorit', function(){
 			->where('favorit', true);
 });
 
-Route::get('/anggota/{id}', 'AnggotaController@updateAnggota');
+Route::post('/anggota/favorit/update', 'AnggotaController@updateAnggota');

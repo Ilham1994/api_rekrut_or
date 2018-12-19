@@ -11,13 +11,25 @@ use DB;
 
 class AnggotaController extends Controller
 {
-    public  function updateAnggota(Request $request, $id)
+    public  function updateAnggota(Request $request)
     {
-    	$anggota = DB::table('anggota')->where('id', $request->input('id'))->get();
-    		$anggota->favorit = $request->input('favorit');
-    		$anggota->save();
-	    	$response["anggota"] = $anggota;
-	    	$response["success"] = 1;
-	    return response()->json($response);
+    	$data = Anggota::where('id', $request->id)->first();
+  		if($data->favorit == 1){
+        $data->favorit = 0; 
+        $data->save();
+
+        return response()->json([
+          'status' =>  'success'
+        ]);
+
+      }else{
+        $data->favorit = 0;
+        $data->save();
+
+        return response()->json([
+          'status' => 'success'          
+        ]);
+
+      }
     }
 }
