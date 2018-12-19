@@ -26,6 +26,8 @@ Route::get('/anggota', function(){
 	return AnggotaResource::collection(Anggota::all());
 });
 
+Route::post('anggota/store','AnggotaController@storeAnggota');
+
 Route::get('/anggota/favorit', function(){
 	return AnggotaResource::collection(Anggota::all())
 			->where('favorit', true);
