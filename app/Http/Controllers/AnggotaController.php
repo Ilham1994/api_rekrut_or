@@ -14,6 +14,7 @@ class AnggotaController extends Controller
     public  function updateAnggota(Request $request)
     {
     	$data = Anggota::where('id', $request->id)->first();
+    	
   		if($data->favorit == 1){
         $data->favorit = 0; 
         $data->save();
@@ -24,7 +25,7 @@ class AnggotaController extends Controller
         ]);
 
       }else{
-        $data->favorit = 0;
+        $data->favorit = 1;
         $data->save();
 
         return response()->json([
