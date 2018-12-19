@@ -19,7 +19,8 @@ class AnggotaController extends Controller
         $data->save();
 
         return response()->json([
-          'status' =>  'success'
+          'status' =>  'success',
+          'data' => $data->favorit
         ]);
 
       }else{
@@ -27,7 +28,8 @@ class AnggotaController extends Controller
         $data->save();
 
         return response()->json([
-          'status' => 'success'          
+          'status' => 'success',
+          'data' => $data->favorit
         ]);
 
       }
