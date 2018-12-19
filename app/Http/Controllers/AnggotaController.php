@@ -13,7 +13,7 @@ class AnggotaController extends Controller
 {
     public  function updateAnggota(Request $request, $id)
     {
-    	$anggota = DB::table('anggota')->where('id', $request->input('id'))->get();
+    	$anggota = DB::table('anggota')->where('id',$request->input('id'))->first();
     		$anggota->favorit = $request->input('favorit');
     		$anggota->save();
 	    	$response["anggota"] = $anggota;
